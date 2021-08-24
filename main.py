@@ -4,7 +4,7 @@ import threading
 
 
 def play_sound(selection):
-    beepy.beep(selection)
+    threading.Thread(target=lambda: (beepy.beep(selection))).start()
     print(selection)
 
 

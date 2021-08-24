@@ -5,6 +5,7 @@ import beepy
 if __name__ == '__main__':
 
 def play_sound():
+    beep(sound=1)
 
 
     root = Tk()

@@ -2,10 +2,12 @@ from tkinter import *
 import beepy
 
 
-if __name__ == '__main__':
-
 def play_sound():
     beep(sound=1)
+
+
+if __name__ == '__main__':
+
 
 
     root = Tk()

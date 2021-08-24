@@ -1,16 +1,9 @@
-
-
-
-
-
-
-
-
-
-
-
-
+from tkinter import *
 
 
 if __name__ == '__main__':
-    print("penis")
+
+    root = Tk()
+    root.title("WHACK THAT GACK")
+    root.geometry('350x200')
+    root.mainloop()

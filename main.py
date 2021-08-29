@@ -13,16 +13,16 @@ if __name__ == '__main__':
 
     root = Tk()
     root.title("WHACK THAT GACK")
-    root.geometry('200x500')
+    root.geometry('200x250')
 
     lbl = Label(root, text = "Arses")
     lbl.grid()
 
-    btn1 = Button(root, text = "Button 1", command=lambda:(play_sound(1)))
+    btn1 = Button(root, text = "Coin", command=lambda:(play_sound(1)))
     btn1.grid()
-    btn2 = Button(root, text = "Button 2", command=lambda:(play_sound(2)))
+    btn2 = Button(root, text = "DNC", command=lambda:(play_sound(2)))
     btn2.grid()
-    btn3 = Button(root, text = "Button 3", command=lambda:(play_sound(3)))
+    btn3 = Button(root, text = "Error", command=lambda:(play_sound(3)))
     btn3.grid()
     btn4 = Button(root, text = "Button 4", command=lambda:(play_sound(4)))
     btn4.grid()
@@ -32,8 +32,7 @@ if __name__ == '__main__':
     btn6.grid()
     btn7 = Button(root, text = "Button 7", command=lambda:(play_sound(7)))
     btn7.grid()
-    btn8 = Button(root, text = "Button 8", command=lambda:(play_sound(8)))
-    btn8.grid()
+
 
     root.mainloop()
 

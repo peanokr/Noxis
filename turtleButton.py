@@ -1,22 +1,21 @@
+import tkinter
 import turtle
-import tkinter as tk
-
-
-def do_stuff():
-    for color in ["red", "yellow", "green"]:
-        my_lovely_turtle.color(color)
-        my_lovely_turtle.right(120)
-
-
-def press():
-    do_stuff()
+import time
+from tkinter import *
 
 
 def turtleButton():
-    screen = turtle.Screen()
-    screen.bgcolor("cyan")
-    canvas = screen.getcanvas()
-    button = tk.Button(canvas.master, text="Press me", command=press)
-    canvas.create_window(-200, -200, window=button)
-    my_lovely_turtle = turtle.Turtle(shape="turtle")
-    turtle.done()
+    root = Tk()
+    root.title("turtleButton")
+    root.geometry('300x300')
+
+    forward = Button(root, text="forward",command=)
+
+    canvas = Canvas(root, width=400, height=300)
+    canvas.pack()
+
+    screen1 = turtle.TurtleScreen(canvas)
+
+    p = turtle.RawTurtle(screen1)
+
+    p.forward(10)

@@ -9,7 +9,7 @@ def turtleButton():
     root.title("turtleButton")
     root.geometry('300x300')
 
-    forward = Button(root, text="forward",command=)
+    forward = Button(root, text="forward",command=lambda:print("poop"))
 
     canvas = Canvas(root, width=400, height=300)
     canvas.pack()
